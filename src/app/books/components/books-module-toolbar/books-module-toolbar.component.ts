@@ -4,13 +4,13 @@ import { Component } from '@angular/core';
   selector: 'app-books-module-toolbar',
   template: `
     <app-module-toolbar>
-      <button mat-fab color="warn">
+      <button mat-mini-fab color="warn">
         <mat-icon>book</mat-icon>
       </button>
-      <button mat-fab color="warn">
+      <button mat-mini-fab color="warn">
         <mat-icon>create</mat-icon>
       </button>
-      <button mat-fab color="warn">
+      <button mat-mini-fab color="warn">
         <mat-icon>speed</mat-icon>
       </button>
       <button mat-raised-button color="accent">

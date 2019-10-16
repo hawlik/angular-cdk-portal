@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-movies-module-toolbar',
   template: `
     <app-module-toolbar>
-      <button mat-fab>
+      <button mat-mini-fab>
         <mat-icon>movie</mat-icon>
       </button>
       <button mat-raised-button color="warn">
