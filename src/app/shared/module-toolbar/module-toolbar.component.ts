@@ -20,7 +20,7 @@ import { CdkPortal, DomPortalOutlet, PortalOutlet } from '@angular/cdk/portal';
 })
 export class ModuleToolbarComponent implements AfterViewInit, OnDestroy {
   private portalHost: PortalOutlet;
-  @ViewChild(CdkPortal, { static: false }) portal;
+  @ViewChild(CdkPortal) portal;
 
   constructor(
     private componentFactoryResolver: ComponentFactoryResolver,
